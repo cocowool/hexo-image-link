@@ -1,0 +1,10 @@
+{
+    "name": "hexo-image-link",
+    "version": "0.0.1",
+    "main": "index",
+    "keywords" : [
+        "hexo",
+        "image",
+        "path"
+    ]
+}
