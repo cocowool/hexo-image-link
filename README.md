@@ -44,12 +44,6 @@ Then generate public files.
 $ hexo generate
 ```
 
-# Example 示例
-
-Markdown Import Example, recommend `typora` which can copy image to your asset folder.
-
-
-
 # 参考资料
 1. [hexo-asset-image](https://github.com/xcodebuild/hexo-asset-image)
-2. [hexo-simple-image]()
+2. [hexo-simple-image](https://github.com/Aragakiiii/hexo-simple-image)

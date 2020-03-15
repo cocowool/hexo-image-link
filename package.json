@@ -1,7 +1,8 @@
 {
     "name": "hexo-image-link",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "main": "index",
+    "description": "Convert Markdown Image Path to asset_img.",
     "keywords" : [
         "hexo",
         "image",

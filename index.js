@@ -8,8 +8,11 @@ hexo.extend.filter.register('before_post_render', function(data){
 
             // if only one /
             if( (path.split("/")).length == 2){
+                console.debug("Markdown Image Path: " + match_str);
+                console.debug("asset_img string: " + "{% asset_img " + (path.split("/"))[1] + " " +  label + " %}" );
                 return "{% asset_img " + (path.split("/"))[1] + " " +  label + " %}" 
             }else{
+                console.debug("Markdown Image Path does not exists!");
                 return match_str;
             }
 
