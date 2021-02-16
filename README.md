@@ -2,7 +2,7 @@
 
 When enabled hexo `post_asset_folder: true`, convert the markdown image path to asset_img syntax, to make the image display both in typora and hexo.
 
-`![image file label](./markdown-file-name/local-image.png)` -> `{% asset_img label local-image.png %}`
+`![image file label](markdown-file-name/local-image.png)` -> `{% asset_img label local-image.png %}`
 
 在Hexo启用`post_asset_folder: true`选项后，将Markdown语法的图片路径转换为asset_img的方式，使图片能够在使用typora编辑和hexo预览发布时都能正常显示。
 
@@ -36,7 +36,7 @@ drwxr-xr-x@  2 shiqiang  staff    64B  3 15 10:28 20200315-es-monitoring-guide/
 
 Edit Markdown and insert image.
 ```markdown
-![label](./20200315-es-monitoring-guide/image-name.jpg)
+![label](20200315-es-monitoring-guide/image-name.jpg)
 ```
 
 Then generate public files.
