@@ -15,6 +15,11 @@ update link as:-->/.cn//Screenshot-150-1-20200314081849804.png
 update link as:-->/.cn//image-20200314080935503.png
 ```
 
+Cause that old packages doen't work, i developed hexo-image-link, you can find more in my blog [Hexo博客写作与图片处理的经验](http://edulinks.cn/2020/03/14/20200314-write-hexo-with-typora/)
+
+鉴于之前的插件不太好用，我开发了这款 hexo-image-link 插件，详细的使用方法，可以参考我的博客 [Hexo博客写作与图片处理的经验](http://edulinks.cn/2020/03/14/20200314-write-hexo-with-typora/)
+
+
 # Usage 用法
 
 ```sh
