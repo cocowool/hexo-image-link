@@ -3,6 +3,7 @@
 // match markdown image and covert to asset_img 
 hexo.extend.filter.register('before_post_render', function(data){
 
+    // detect ![]() pattern and convert path
     data.content = data.content.replace(/!{1}\[([^\[\]]*)\]\((.*)\s?(?:".*")?\)/g,
         function(match_str, label, path){
 
