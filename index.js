@@ -26,6 +26,13 @@ hexo.extend.filter.register('before_post_render', function(data){
         });
 
     // detect <img > pattern and convert path
+    data.content = data.content.replace(/<img[^>]+src="([^"]+)"/g, 
+        function(matchstr,  path){
+            console.debug("img tag found")
+            console.debug(data.source_dir)
+            console.debug(data.path)
+            return "<img src=\"/" + data.path + path.split("/")[1] + "\" "
+        });
 
     return data;
 });

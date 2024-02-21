@@ -6,6 +6,12 @@ When enabled hexo `post_asset_folder: true`, convert the markdown image path to 
 
 在Hexo启用`post_asset_folder: true`选项后，将Markdown语法的图片路径转换为asset_img的方式，使图片能够在使用typora编辑和hexo预览发布时都能正常显示。
 
+# support img tag
+
+When insert imgage in typora and set image scale, typora will transer `![]()` pattern to `<img src="post_path/your_image.png" style="zoom:33%" />`.
+This will cause the published page can't correctly display your image.
+This feature will change `post_path/your_image.png` to full path and make your image display correctly.
+
 # hexo-asset-image's problem
 
 网上很多资料提示使用 `hexo-asset-image` 插件，但是在 `hexo 4.2.0` 环境下，生成的路径不对，如下：
@@ -50,6 +56,7 @@ $ hexo generate
 ```
 
 # Release Note
+* 2024-02-21    Support img tag, if insert img tag by typora, you can view your image both on typora and published website
 * 2022-12-13    Fix problem that unsupport path with space
 
 # 参考资料
