@@ -7,6 +7,7 @@ hexo.extend.filter.register('before_post_render', function(data){
     data.content = data.content.replace(/!{1}\[([^\[\]]*)\]\((.*)\s?(?:".*")?\)/g,
         function(match_str, label, path){
 
+            path=path.replaceAll("\\","/");
             // if only one /
             if( (path.split("/")).length == 2){
                 console.debug("Markdown Image Path: " + match_str);
