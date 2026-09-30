@@ -1,5 +1,11 @@
 # hexo-image-link 
 
+This plugin is designed for the **Hexo + Typora** workflow.
+
+一个专门为 **Hexo + Typora** 工作流设计的Hexo插件。
+
+## Why this plugin？ / 为什么开发这个插件？
+
 When enabled hexo `post_asset_folder: true`, convert the markdown image path to asset_img syntax, to make the image display both in typora and hexo.
 
 `![image file label](markdown-file-name/local-image.png)` -> `{% asset_img label local-image.png %}`
