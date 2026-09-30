@@ -20,7 +20,7 @@ flowchart LR
 
 虽然官方的 hexo-render-marked 插件也可以将 ![](image.jpg) 形式的图片转变为网站路径，但是这种写法在打开了 post_asset_folder 选项时，不支持在 Typora 中预览图片。同时我也尝试了其他类似功能的插件，比如 `hexo-asset-image` 等等，但是都存在一些问题，所以我开发了这个插件，希望能够帮助大家解决这个问题。
 
-# Usage 使用用法
+# Usage 使用方法
 
 ```sh
 # Enter your hexo blog directory 进入你的 hexo 站点目录
@@ -80,6 +80,7 @@ Cause that old packages doen't work, i developed hexo-image-link, you can find m
 
 
 # Release Note
+* 2026-09-30    Modify readme, show more about my typora + hexo workflow
 * 2024-02-21    Support img tag, if insert img tag by typora, you can view your image both on typora and published website
 * 2022-12-13    Fix problem that unsupport path with space
 
