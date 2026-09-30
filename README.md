@@ -18,6 +18,7 @@ flowchart LR
     A --> B --> C --> D
 ```
 
+虽然官方的 hexo-render-marked 插件也可以将 ![](image.jpg) 形式的图片转变为网站路径，但是这种写法在打开了 post_asset_folder 选项时，不支持在 Typora 中预览图片。同时我也尝试了其他类似功能的插件，比如 `hexo-asset-image` 等等，但是都存在一些问题，所以我开发了这个插件，希望能够帮助大家解决这个问题。
 
 # Usage 使用用法
 
